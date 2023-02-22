@@ -1,0 +1,25 @@
+# ninja log v5
+16	599	6987862113046677	CMakeFiles/myFem.dir/src/fem.c.obj	558a1867c93686b2
+39	644	6987862113836220	CMakeFiles/myFem.dir/src/homework.c.obj	c9a9150dc8e88ed7
+50	688	6987862114146059	CMakeFiles/myFem.dir/src/main.c.obj	270c72f7c86c7e14
+61	1353	6987862120975238	glfw/src/CMakeFiles/glfw.dir/context.c.obj	a3344ad9642d615f
+73	1409	6987862121524950	glfw/src/CMakeFiles/glfw.dir/init.c.obj	f9a22b4e36b6ad5a
+63	954	6987882837790914	CMakeFiles/myFem.dir/src/homework.c.obj	c9a9150dc8e88ed7
+93	1894	6987882848015043	glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	18bb09d147fee243
+116	1901	6987882848154973	glfw/src/CMakeFiles/glfw.dir/window.c.obj	ab568a9e47a26d6e
+105	1903	6987882848105003	glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	2e2fe157aceb63d0
+81	1917	6987882848494769	glfw/src/CMakeFiles/glfw.dir/input.c.obj	94610f9056d776fb
+956	2413	6987882853651800	glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	d1f987c3142958d7
+54	1527	6987884225632365	glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	126cbf28609b9941
+88	1530	6987884225612347	glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	4102ad16a7fca35b
+43	1531	6987884225702304	CMakeFiles/myFem.dir/src/homework.c.obj	c9a9150dc8e88ed7
+64	1556	6987884226082074	glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	877ed6a5dded69dd
+76	1558	6987884225952157	glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	ded583eb9b53a6be
+97	1401	6987884482147030	glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	f9b4d01580389295
+50	1410	6987884482336910	glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	f716c0355bdce1d5
+72	1416	6987884482526804	glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	4aa7822c12592efd
+60	1418	6987884482526804	glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	65fd47c0a0140828
+33	258	6987884547896272	CMakeFiles/myFem.dir/src/homework.c.obj	c9a9150dc8e88ed7
+50	664	6987884551880253	glfw/src/glfw3.lib	448c0570218adbfe
+19	729	6987886032848856	CMakeFiles/myFem.dir/src/homework.c.obj	c9a9150dc8e88ed7
+45	716	6987887582458393	CMakeFiles/myFem.dir/src/homework.c.obj	c9a9150dc8e88ed7

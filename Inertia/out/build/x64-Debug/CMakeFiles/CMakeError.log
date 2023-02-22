@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/Users/jackl/Documents/Efinis/Inertia/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n70k7x
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4bd76 && [1/2] Building C object CMakeFiles\cmTC_4bd76.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_4bd76.dir/src.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_4bd76.dir\src.c.obj /FdCMakeFiles\cmTC_4bd76.dir\ /FS -c C:\Users\jackl\Documents\Efinis\Inertia\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-n70k7x\src.c
+C:\Users\jackl\Documents\Efinis\Inertia\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-n70k7x\src.c(1): fatal error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/Users/jackl/Documents/Efinis/Inertia/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4vdky2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_bfb1b && [1/2] Building C object CMakeFiles\cmTC_bfb1b.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_bfb1b.exe
+FAILED: cmTC_bfb1b.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_bfb1b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_bfb1b.dir\CheckFunctionExists.c.obj  /out:cmTC_bfb1b.exe /implib:cmTC_bfb1b.lib /pdb:cmTC_bfb1b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_bfb1b.dir\CheckFunctionExists.c.obj /out:cmTC_bfb1b.exe /implib:cmTC_bfb1b.lib /pdb:cmTC_bfb1b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_bfb1b.dir/intermediate.manifest CMakeFiles\cmTC_bfb1b.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: C:/Users/jackl/Documents/Efinis/Inertia/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4xbtyo
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2378e && [1/2] Building C object CMakeFiles\cmTC_2378e.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_2378e.exe
+FAILED: cmTC_2378e.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2378e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_2378e.dir\CheckFunctionExists.c.obj  /out:cmTC_2378e.exe /implib:cmTC_2378e.lib /pdb:cmTC_2378e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_2378e.dir\CheckFunctionExists.c.obj /out:cmTC_2378e.exe /implib:cmTC_2378e.lib /pdb:cmTC_2378e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_2378e.dir/intermediate.manifest CMakeFiles\cmTC_2378e.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib'
+ninja: build stopped: subcommand failed.
+
+
+
