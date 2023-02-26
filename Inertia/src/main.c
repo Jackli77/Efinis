@@ -23,7 +23,7 @@ void        inertiaMeshFree(femMesh *theMesh);
 
 int main(void)
 {   
-    femMesh *theMesh = inertiaMeshRead("../data/gear60.txt");
+    femMesh *theMesh = inertiaMeshRead("D:/jackl/Documents/Efinis/Inertia/data/gear8.txt");
     femIntegration *theRule = femIntegrationCreate(3,FEM_TRI);
     double rho = inertiaSteelRho();
     double   I = inertiaIntegrate(theMesh,theRule,rho); 

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/jackl/Documents/Efinis/Inertia/glfw/src
+# Install script for directory: D:/jackl/Documents/Efinis/Inertia/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/jackl/Documents/Efinis/Inertia/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/jackl/Documents/Efinis/Inertia/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
