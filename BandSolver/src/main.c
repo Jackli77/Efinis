@@ -22,7 +22,7 @@ int main(void)
     
     femSolverType solverType = FEM_BAND;
     femRenumType  renumType  = FEM_YNUM;
-    char meshFileName[] = "../data/triangles101.txt";  
+    char meshFileName[] = "C:/Users/jackl/Documents/Efinis/BandSolver/data/mediterrannee3353.txt";  
     
     // Pour Windows, remplacer l'argument :
     // ("../data/triangles101.txt") 
