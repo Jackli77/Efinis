@@ -1,0 +1,10 @@
+# ninja log v5
+10	743	7031963668919391	CMakeFiles/myFem.dir/src/homework.c.obj	3b8d0524b9e1420c
+37	748	7031963669098906	glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	b3c8473cda03c7c7
+2	749	7031963669098906	CMakeFiles/myFem.dir/src/fem.c.obj	1b8133360c0ad9a9
+6	757	7031963668919391	CMakeFiles/myFem.dir/src/glfem.c.obj	fc3eeeaf9603fa66
+31	759	7031963669068990	glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	17c330b1fedf0488
+44	761	7031963669009147	glfw/src/CMakeFiles/glfw.dir/window.c.obj	35c211a7bbff3946
+18	768	7031963669333372	glfw/src/CMakeFiles/glfw.dir/context.c.obj	2a4748b5f7ba6397
+27	771	7031963669373257	glfw/src/CMakeFiles/glfw.dir/input.c.obj	14a13c514eb70b0c
+23	772	7031963669373257	glfw/src/CMakeFiles/glfw.dir/init.c.obj	fc362be8f40fe0e
