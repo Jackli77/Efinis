@@ -1,0 +1,6 @@
+# ninja log v5
+79	1870	7051529593212325	glfw/src/CMakeFiles/glfw.dir/init.c.obj	8b4501638780309b
+55	1923	7051529592902503	CMakeFiles/myFem.dir/src/main.c.obj	89bd1036f0020294
+10	1926	7051529593042423	CMakeFiles/myFem.dir/src/fem.c.obj	b096141f4ab32157
+44	1927	7051529593062413	CMakeFiles/myFem.dir/src/homework.c.obj	b43aeb647ba5429
+67	1928	7051529593172345	glfw/src/CMakeFiles/glfw.dir/context.c.obj	d43541f8df9b5c30

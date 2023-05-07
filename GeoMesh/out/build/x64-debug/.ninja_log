@@ -1,0 +1,23 @@
+# ninja log v5
+8	564	7051530091939172	CMakeFiles/myFem.dir/src/fem.c.obj	df8f7c0dcf79aaef
+32	614	7051530092059103	CMakeFiles/myFem.dir/src/homework.c.obj	5c717d05bfce3d3a
+43	627	7051530092768691	CMakeFiles/myFem.dir/src/main.c.obj	d707836d322c90e7
+60	1573	7051530102313237	glfw/src/CMakeFiles/glfw.dir/context.c.obj	2581fa849f24c61f
+72	1642	7051530102972858	glfw/src/CMakeFiles/glfw.dir/init.c.obj	c2af3b05cc4e8a3e
+582	1857	7051530105241547	glfw/src/CMakeFiles/glfw.dir/input.c.obj	c420196fd3660b2e
+614	1953	7051530106201000	glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	c5284fcd8e77ab9c
+49	1212	7051530761408161	CMakeFiles/myFem.dir/src/main.c.obj	d707836d322c90e7
+80	1840	7051530767814506	glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	add27462f307a746
+59	1846	7051530767904468	glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	8a2c8b8248d46c52
+90	2048	7051530769883307	glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	41052b35021deea4
+69	2159	7051530771102609	glfw/src/CMakeFiles/glfw.dir/window.c.obj	ed313c15651cd44b
+29	1749	7051531053214428	CMakeFiles/myFem.dir/src/main.c.obj	d707836d322c90e7
+79	1773	7051531053154462	glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	326507cd006d80c1
+39	1787	7051531053614194	glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	38adf21b296c0ae0
+59	1849	7051531054373765	glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	422f0062a806e64d
+91	2190	7051531057801797	glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	f3a09f52800277db
+61	1262	7051531363573645	glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	5cf0efa702343f3
+76	1298	7051531363953423	glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	f1bb3369a8e9bb50
+89	1368	7051531364603056	glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	645e073bf218bd65
+68	370	7051532315784168	glfw/src/glfw3.lib	448c0570218adbfe
+51	457	7051532316803591	CMakeFiles/myFem.dir/src/homework.c.obj	5c717d05bfce3d3a

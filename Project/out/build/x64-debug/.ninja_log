@@ -1,0 +1,4 @@
+# ninja log v5
+25	569	7051169646544703	CMakeFiles/myFem.dir/src/main.c.obj	83617dcaf471fc9d
+8	593	7051169646614660	CMakeFiles/myFem.dir/src/fem.c.obj	f949f322f3970c58
+16	597	7051169646544703	CMakeFiles/myFem.dir/src/homework.c.obj	55d22bc1ae16101e
