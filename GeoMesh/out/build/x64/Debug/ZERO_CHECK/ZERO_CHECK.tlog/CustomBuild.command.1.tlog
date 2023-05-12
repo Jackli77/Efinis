@@ -1,0 +1,10 @@
+^D:\USERS\JACKL\DOCUMENTS\EFINIS\GEOMESH\OUT\BUILD\CMAKEFILES\B5395F4D65095CE30162DAEAE3A43C9F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Users/jackl/Documents/Efinis/GeoMesh -BD:/Users/jackl/Documents/Efinis/GeoMesh/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/myFemProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,6 @@
+D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/myFem.dir
+D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/run.dir
+D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/ALL_BUILD.dir
+D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/ZERO_CHECK.dir
+D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/glfw/src/CMakeFiles/glfw.dir

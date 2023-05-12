@@ -1,0 +1,7 @@
+﻿  glfem.c
+D:\Users\jackl\Documents\Efinis\GeoMesh\src\glfem.c(367,17): error C2057: expression constante attendue
+D:\Users\jackl\Documents\Efinis\GeoMesh\src\glfem.c(367,27): error C2466: impossible d'allouer un tableau de taille constante 0
+D:\Users\jackl\Documents\Efinis\GeoMesh\src\glfem.c(367,12): error C2133: 'xLoc' : taille inconnue
+D:\Users\jackl\Documents\Efinis\GeoMesh\src\glfem.c(368,17): error C2057: expression constante attendue
+D:\Users\jackl\Documents\Efinis\GeoMesh\src\glfem.c(368,27): error C2466: impossible d'allouer un tableau de taille constante 0
+D:\Users\jackl\Documents\Efinis\GeoMesh\src\glfem.c(368,12): error C2133: 'yLoc' : taille inconnue

@@ -1,0 +1,387 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:38.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" sur le noud 1 (cibles par d‚faut).
+      PrepareForBuild:
+        Cr‚ation du r‚pertoire "Debug\\".
+        Cr‚ation du r‚pertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Cr‚ation de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise … jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" termin‚e (cibles par d‚faut).
+      
+      La g‚n‚ration a r‚ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ‚coul‚ 00:00:01.09
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:39.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par d‚faut).
+      PrepareForBuild:
+        Cr‚ation du r‚pertoire "Debug\\".
+        Cr‚ation du r‚pertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Cr‚ation de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise … jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" termin‚e (cibles par d‚faut).
+      
+      La g‚n‚ration a r‚ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ‚coul‚ 00:00:00.87
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-rdfejv"
+      binary: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-rdfejv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-rdfejv
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9eba2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:40.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rdfejv\\cmTC_9eba2.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_9eba2.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rdfejv\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_9eba2.dir\\Debug\\cmTC_9eba2.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_9eba2.dir\\Debug\\cmTC_9eba2.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eba2.dir\\Debug\\\\" /Fd"cmTC_9eba2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.35.32217.1 pour x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9eba2.dir\\Debug\\\\" /Fd"cmTC_9eba2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rdfejv\\Debug\\cmTC_9eba2.exe" /INCREMENTAL /ILK:"cmTC_9eba2.dir\\Debug\\cmTC_9eba2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-rdfejv/Debug/cmTC_9eba2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-rdfejv/Debug/cmTC_9eba2.lib" /MACHINE:X64  /machine:x64 cmTC_9eba2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9eba2.vcxproj -> D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rdfejv\\Debug\\cmTC_9eba2.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_9eba2.dir\\Debug\\cmTC_9eba2.tlog\\unsuccessfulbuild".
+          Mise … jour de l'horodatage "cmTC_9eba2.dir\\Debug\\cmTC_9eba2.tlog\\cmTC_9eba2.lastbuildstate".
+        G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rdfejv\\cmTC_9eba2.vcxproj" termin‚e (cibles par d‚faut).
+        
+        La g‚n‚ration a r‚ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-py1z96"
+      binary: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-py1z96"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-py1z96
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5449c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:42.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-py1z96\\cmTC_5449c.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_5449c.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-py1z96\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_5449c.dir\\Debug\\cmTC_5449c.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_5449c.dir\\Debug\\cmTC_5449c.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5449c.dir\\Debug\\\\" /Fd"cmTC_5449c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.35.32217.1 pour x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5449c.dir\\Debug\\\\" /Fd"cmTC_5449c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-py1z96\\Debug\\cmTC_5449c.exe" /INCREMENTAL /ILK:"cmTC_5449c.dir\\Debug\\cmTC_5449c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-py1z96/Debug/cmTC_5449c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-py1z96/Debug/cmTC_5449c.lib" /MACHINE:X64  /machine:x64 cmTC_5449c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5449c.vcxproj -> D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-py1z96\\Debug\\cmTC_5449c.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_5449c.dir\\Debug\\cmTC_5449c.tlog\\unsuccessfulbuild".
+          Mise … jour de l'horodatage "cmTC_5449c.dir\\Debug\\cmTC_5449c.tlog\\cmTC_5449c.lastbuildstate".
+        G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-py1z96\\cmTC_5449c.vcxproj" termin‚e (cibles par d‚faut).
+        
+        La g‚n‚ration a r‚ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "glfw/CMakeLists.txt:68 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-vlw0qq"
+      binary: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-vlw0qq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Users/jackl/Documents/Efinis/GeoMesh/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-vlw0qq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_78cb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:43.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\cmTC_78cb2.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_78cb2.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_78cb2.dir\\Debug\\cmTC_78cb2.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_78cb2.dir\\Debug\\cmTC_78cb2.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78cb2.dir\\Debug\\\\" /Fd"cmTC_78cb2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\src.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.35.32217.1 pour x64
+          src.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78cb2.dir\\Debug\\\\" /Fd"cmTC_78cb2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\src.c"
+        D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier includeÿ: 'pthread.h'ÿ: No such file or directory [D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\cmTC_78cb2.vcxproj]
+        G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\cmTC_78cb2.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\cmTC_78cb2.vcxproj" (cible par d‚faut) (1) ->
+        (ClCompile cible) -> 
+          D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier includeÿ: 'pthread.h'ÿ: No such file or directory [D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vlw0qq\\cmTC_78cb2.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "glfw/CMakeLists.txt:68 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-zs3mf2"
+      binary: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-zs3mf2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Users/jackl/Documents/Efinis/GeoMesh/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-zs3mf2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_13f64.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:43.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\cmTC_13f64.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_13f64.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_13f64.dir\\Debug\\cmTC_13f64.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_13f64.dir\\Debug\\cmTC_13f64.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13f64.dir\\Debug\\\\" /Fd"cmTC_13f64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.35.32217.1 pour x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13f64.dir\\Debug\\\\" /Fd"cmTC_13f64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\Debug\\cmTC_13f64.exe" /INCREMENTAL /ILK:"cmTC_13f64.dir\\Debug\\cmTC_13f64.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-zs3mf2/Debug/cmTC_13f64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-zs3mf2/Debug/cmTC_13f64.lib" /MACHINE:X64  /machine:x64 cmTC_13f64.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\cmTC_13f64.vcxproj]
+        G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\cmTC_13f64.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\cmTC_13f64.vcxproj" (cible par d‚faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs3mf2\\cmTC_13f64.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "glfw/CMakeLists.txt:68 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-tg5wm0"
+      binary: "D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-tg5wm0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Users/jackl/Documents/Efinis/GeoMesh/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-tg5wm0
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0fa30.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 09/05/2023 12:39:44.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\cmTC_0fa30.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_0fa30.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_0fa30.dir\\Debug\\cmTC_0fa30.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_0fa30.dir\\Debug\\cmTC_0fa30.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0fa30.dir\\Debug\\\\" /Fd"cmTC_0fa30.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.35.32217.1 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0fa30.dir\\Debug\\\\" /Fd"cmTC_0fa30.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\Debug\\cmTC_0fa30.exe" /INCREMENTAL /ILK:"cmTC_0fa30.dir\\Debug\\cmTC_0fa30.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-tg5wm0/Debug/cmTC_0fa30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/CMakeFiles/CMakeScratch/TryCompile-tg5wm0/Debug/cmTC_0fa30.lib" /MACHINE:X64  /machine:x64 cmTC_0fa30.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\cmTC_0fa30.vcxproj]
+        G‚n‚ration du projet "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\cmTC_0fa30.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\cmTC_0fa30.vcxproj" (cible par d‚faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [D:\\Users\\jackl\\Documents\\Efinis\\GeoMesh\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tg5wm0\\cmTC_0fa30.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.84
+        
+      exitCode: 1
+...

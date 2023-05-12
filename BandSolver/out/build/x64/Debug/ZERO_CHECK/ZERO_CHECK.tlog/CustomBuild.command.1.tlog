@@ -1,0 +1,10 @@
+^D:\USERS\JACKL\DOCUMENTS\EFINIS\BANDSOLVER\OUT\BUILD\CMAKEFILES\5EF6A3B114DA4AC3581AA241B13BDA49\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Users/jackl/Documents/Efinis/BandSolver -BD:/Users/jackl/Documents/Efinis/BandSolver/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Users/jackl/Documents/Efinis/BandSolver/out/build/myFemProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

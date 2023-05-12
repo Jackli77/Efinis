@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\jackl\Documents\Efinis\GeoMesh\out\build\CMakeFiles\b5395f4d65095ce30162daeae3a43c9f\run.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Users\jackl\Documents\Efinis\GeoMesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Users\jackl\Documents\Efinis\GeoMesh\out\build\CMakeFiles\run" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{920DA240-EFC5-3D29-9A8F-5410DA08D14F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

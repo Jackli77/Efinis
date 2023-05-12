@@ -1,0 +1,10 @@
+^D:\USERS\JACKL\DOCUMENTS\EFINIS\GEOMESH\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Users/jackl/Documents/Efinis/GeoMesh -BD:/Users/jackl/Documents/Efinis/GeoMesh/out/build --check-stamp-file D:/Users/jackl/Documents/Efinis/GeoMesh/out/build/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

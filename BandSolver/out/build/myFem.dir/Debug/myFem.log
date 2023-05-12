@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/Users/jackl/Documents/Efinis/BandSolver/CMakeLists.txt
+  fem.c
+D:\Users\jackl\Documents\Efinis\BandSolver\src\fem.c(301,48): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+D:\Users\jackl\Documents\Efinis\BandSolver\src\fem.c(302,48): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  glfem.c
+  homework.c
+D:\Users\jackl\Documents\Efinis\BandSolver\src\homework.c(89,28): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  main.c
+  Génération de code en cours...
+  myFem.vcxproj -> D:\Users\jackl\Documents\Efinis\BandSolver\out\build\Debug\myFem.exe

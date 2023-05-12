@@ -1,0 +1,6 @@
+D:/Users/jackl/Documents/Efinis/BandSolver/out/build/CMakeFiles/myFem.dir
+D:/Users/jackl/Documents/Efinis/BandSolver/out/build/CMakeFiles/run.dir
+D:/Users/jackl/Documents/Efinis/BandSolver/out/build/CMakeFiles/ALL_BUILD.dir
+D:/Users/jackl/Documents/Efinis/BandSolver/out/build/CMakeFiles/ZERO_CHECK.dir
+D:/Users/jackl/Documents/Efinis/BandSolver/out/build/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Users/jackl/Documents/Efinis/BandSolver/out/build/glfw/src/CMakeFiles/glfw.dir

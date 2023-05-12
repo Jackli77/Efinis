@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\jackl\Documents\Efinis\BandSolver\out\build\CMakeFiles\5ef6a3b114da4ac3581aa241b13bda49\run.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Users\jackl\Documents\Efinis\BandSolver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Users\jackl\Documents\Efinis\BandSolver\out\build\CMakeFiles\run" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC21BAFC-8253-3FD5-BC97-899CE51B7322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
