@@ -1,0 +1,4 @@
+/mnt/c/Users/jackl/Documents/Efinis/Project/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/jackl/Documents/Efinis/Project/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/jackl/Documents/Efinis/Project/build/CMakeFiles/run.dir
+/mnt/c/Users/jackl/Documents/Efinis/Project/build/CMakeFiles/myFem.dir

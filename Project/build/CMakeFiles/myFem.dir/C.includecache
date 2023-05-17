@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/fem.c
+fem.h
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/fem.h
+math.h
+-
+
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/fem.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/homework.c
+fem.h
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/fem.h
+math.h
+-
+
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/main.c
+fem.h
+/mnt/c/Users/jackl/Documents/Efinis/Project/src/fem.h
+math.h
+-
+

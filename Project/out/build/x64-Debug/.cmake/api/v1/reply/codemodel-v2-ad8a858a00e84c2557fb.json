@@ -48,7 +48,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "run::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-run-Debug-677fb9084b97b2c44722.json",
+					"jsonFile" : "target-run-Debug-48ba68e7542b63244abe.json",
 					"name" : "run",
 					"projectIndex" : 0
 				}
@@ -58,7 +58,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/jackl/Documents/Efinis/Project/out/build/x64-debug",
+		"build" : "C:/Users/jackl/Documents/Efinis/Project/out/build/x64-Debug",
 		"source" : "C:/Users/jackl/Documents/Efinis/Project"
 	},
 	"version" : 

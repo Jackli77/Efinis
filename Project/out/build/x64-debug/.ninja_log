@@ -1,4 +1,7 @@
 # ninja log v5
-25	569	7051169646544703	CMakeFiles/myFem.dir/src/main.c.obj	83617dcaf471fc9d
-8	593	7051169646614660	CMakeFiles/myFem.dir/src/fem.c.obj	f949f322f3970c58
-16	597	7051169646544703	CMakeFiles/myFem.dir/src/homework.c.obj	55d22bc1ae16101e
+20	313	7060453194681852	CMakeFiles/myFem.dir/src/homework.c.obj	55d22bc1ae16101e
+11	325	7060453194811773	CMakeFiles/myFem.dir/src/fem.c.obj	f949f322f3970c58
+35	330	7060453194921719	CMakeFiles/myFem.dir/src/main.c.obj	83617dcaf471fc9d
+24	223	7060458306001966	CMakeFiles/myFem.dir/src/main.c.obj	83617dcaf471fc9d
+15	250	7060458306320228	CMakeFiles/myFem.dir/src/fem.c.obj	f949f322f3970c58
+250	964	7060458312937492	myFem.exe	3ec96d1dc895ecb4
